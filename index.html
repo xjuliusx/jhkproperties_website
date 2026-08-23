@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Tenant payment information, maintenance guidance, and rental resources from JHK Properties.">
+  <title>JHK Properties | Tenant Resources &amp; Payments</title>
+  <link rel="icon" href="public/favicon.svg">
+  <link rel="stylesheet" href="app/globals.css">
+</head>
+<body>
+<main>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="JHK Properties home"><span class="brand-mark">JHK</span><span>PROPERTIES</span></a>
+    <nav aria-label="Main navigation"><a href="#payments">Payments</a><a href="#maintenance">Maintenance</a><a href="#information">Tenant info</a></nav>
+    <a class="header-action" href="mailto:management@jhkproperties.com">Contact us <span>↗</span></a>
+  </header>
+
+  <section class="hero" id="top">
+    <div class="hero-copy">
+      <p class="eyebrow"><span></span> Tenant resources, made simple</p>
+      <h1>A better way to feel <em>at home.</em></h1>
+      <p class="hero-intro">Everything you need as a JHK Properties tenant—from payment guidance to maintenance help—in one clear, dependable place.</p>
+      <div class="hero-actions"><a class="button button-dark" href="#payments">View payment info <span>→</span></a><a class="text-link" href="#maintenance">Get maintenance help <span>↓</span></a></div>
+    </div>
+    <div class="hero-panel" aria-label="Tenant quick overview">
+      <div class="arch-card"><div class="arch-sun"></div><div class="building building-one"><i></i><i></i><i></i><i></i></div><div class="building building-two"><i></i><i></i></div></div>
+      <div class="availability"><span class="status-dot"></span><p><strong>Tenant support</strong><br>Monday–Friday, 9am–5pm</p></div>
+    </div>
+  </section>
+
+  <section class="resource-strip" aria-label="Tenant resources">
+    <a class="resource-card" href="#payments"><span class="resource-number">01</span><div><h2>Pay rent</h2><p>Review accepted payment methods, due dates, and the details you need before sending a payment.</p></div><span class="round-arrow">↗</span></a>
+    <a class="resource-card" href="#maintenance"><span class="resource-number">02</span><div><h2>Request maintenance</h2><p>Know who to contact, what information to include, and what to do when something is urgent.</p></div><span class="round-arrow">↗</span></a>
+    <a class="resource-card" href="#information"><span class="resource-number">03</span><div><h2>Tenant information</h2><p>Find answers about rent, notices, emergencies, and common property questions in one place.</p></div><span class="round-arrow">↗</span></a>
+  </section>
+
+  <section class="section payment-section" id="payments">
+    <div class="section-heading"><p class="eyebrow"><span></span> Rent payments</p><h2>Pay with confidence.</h2><p>Confirm your balance and approved payment method with management before making your first payment.</p></div>
+    <div class="payment-layout">
+      <article class="payment-card featured"><div class="card-top"><span>Recommended</span><span class="shield">✓</span></div><h3>Online payment portal</h3><p>A secure tenant payment link will be available here after JHK Properties connects its preferred payment provider.</p><button type="button" disabled>Portal coming soon</button><small>Never send banking details through email or text.</small></article>
+      <article class="payment-card"><div class="card-top"><span>Current option</span><span>02</span></div><h3>Contact management</h3><p>Ask for your current balance and the approved payment instructions for your property.</p><a href="mailto:management@jhkproperties.com?subject=Payment%20information%20request">Request payment details <span>→</span></a><small>Include your name and rental property address.</small></article>
+    </div>
+    <div class="payment-note"><strong>Before you pay</strong><span>Verify the recipient, amount, property address, and payment memo. JHK Properties will never ask you to pay with gift cards.</span></div>
+  </section>
+
+  <section class="section maintenance-section" id="maintenance">
+    <div><p class="eyebrow light"><span></span> Maintenance</p><h2>Something needs attention?</h2><p class="maintenance-copy">Tell us what happened, where it is, and when you first noticed it. Photos are helpful when safe to take.</p><a class="button button-light" href="mailto:maintenance@jhkproperties.com?subject=Maintenance%20request">Start a maintenance request <span>↗</span></a></div>
+    <aside class="emergency-card"><p>For emergencies</p><h3>Protect people first.</h3><ol><li>Call 911 for immediate danger.</li><li>Leave the area if you smell gas or see fire.</li><li>Then contact property management.</li></ol><a href="mailto:management@jhkproperties.com?subject=Urgent%20maintenance%20issue">Email property management</a></aside>
+  </section>
+
+  <section class="section info-section" id="information">
+    <div class="section-heading"><p class="eyebrow"><span></span> Good to know</p><h2>Answers for everyday renting.</h2></div>
+    <div class="faq-list">
+      <div class="faq"><button type="button" aria-expanded="true"><span>01</span>When is rent due?<b>−</b></button><p>Rent is due on the date stated in your lease. Contact JHK Properties if you need confirmation of your balance and due date.</p></div>
+      <div class="faq"><button type="button" aria-expanded="false"><span>02</span>What should I include with a payment?<b>+</b></button><p hidden>Always include your full name and rental property address in the payment note or memo.</p></div>
+      <div class="faq"><button type="button" aria-expanded="false"><span>03</span>What counts as a maintenance emergency?<b>+</b></button><p hidden>No heat in freezing weather, active flooding, fire, gas odor, or another immediate threat should be treated as urgent. Call 911 first when safety is at risk.</p></div>
+    </div>
+  </section>
+
+  <footer><div class="brand footer-brand"><span class="brand-mark">JHK</span><span>PROPERTIES</span></div><p>Thoughtful homes. Dependable management.</p><div><a href="mailto:management@jhkproperties.com">management@jhkproperties.com</a><span>© 2026 JHK Properties</span></div></footer>
+</main>
+<script>
+document.querySelectorAll('.faq button').forEach(function(button){button.addEventListener('click',function(){var answer=button.nextElementSibling;var open=button.getAttribute('aria-expanded')==='true';button.setAttribute('aria-expanded',String(!open));button.querySelector('b').textContent=open?'+':'−';answer.hidden=open;});});
+</script>
+</body>
+</html>
