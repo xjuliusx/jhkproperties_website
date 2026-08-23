@@ -44,7 +44,7 @@ export default function Home() {
           <a href="#maintenance">Maintenance</a>
           <a href="#information">Tenant info</a>
         </nav>
-        <a className="header-action" href="mailto:management@jhkproperties.com">Contact us <span>↗</span></a>
+        <a className="header-action" href="mailto:admin@jhkproperties.com">Contact us <span>↗</span></a>
       </header>
 
       <section className="hero" id="top">
@@ -98,7 +98,7 @@ export default function Home() {
             <div className="card-top"><span>Current option</span><span>02</span></div>
             <h3>Contact management</h3>
             <p>Ask for your current balance and the approved payment instructions for your property.</p>
-            <a href="mailto:management@jhkproperties.com?subject=Payment%20information%20request">Request payment details <span>→</span></a>
+            <a href="mailto:admin@jhkproperties.com?subject=Payment%20information%20request">Request payment details <span>→</span></a>
             <small>Include your name and rental property address.</small>
           </article>
         </div>
@@ -110,13 +110,13 @@ export default function Home() {
           <p className="eyebrow light"><span /> Maintenance</p>
           <h2>Something needs attention?</h2>
           <p className="maintenance-copy">Tell us what happened, where it is, and when you first noticed it. Photos are helpful when safe to take.</p>
-          <a className="button button-light" href="mailto:maintenance@jhkproperties.com?subject=Maintenance%20request">Start a maintenance request <span>↗</span></a>
+          <a className="button button-light" href="mailto:admin@jhkproperties.com?subject=Maintenance%20request">Start a maintenance request <span>↗</span></a>
         </div>
         <aside className="emergency-card">
           <p>For emergencies</p>
           <h3>Protect people first.</h3>
           <ol><li>Call 911 for immediate danger.</li><li>Leave the area if you smell gas or see fire.</li><li>Then contact property management.</li></ol>
-          <a href="mailto:management@jhkproperties.com?subject=Urgent%20maintenance%20issue">Email property management</a>
+          <a href="mailto:admin@jhkproperties.com?subject=Urgent%20maintenance%20issue">Email property management</a>
         </aside>
       </section>
 
@@ -140,7 +140,7 @@ export default function Home() {
       <footer>
         <div className="brand footer-brand"><span className="brand-mark">JHK</span><span>PROPERTIES</span></div>
         <p>Thoughtful homes. Dependable management.</p>
-        <div><a href="mailto:management@jhkproperties.com">management@jhkproperties.com</a><span>© {new Date().getFullYear()} JHK Properties</span></div>
+        <div><a href="mailto:admin@jhkproperties.com">admin@jhkproperties.com</a><address>JHK Property Holdings<br />16 Middle Neck Rd, #752<br />Great Neck, NY 11021</address><span>© {new Date().getFullYear()} JHK Properties</span></div>
       </footer>
     </main>
   );
