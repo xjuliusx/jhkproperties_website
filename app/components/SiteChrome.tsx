@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 export function SiteHeader() {
-  return <header className="site-header"><Link className="brand" href="/" aria-label="JHK Properties home" data-goatcounter-click="nav-home"><span className="brand-mark">JHK</span><span>PROPERTIES</span></Link><nav aria-label="Main navigation"><Link href="/property-management" data-goatcounter-click="nav-property-management">Property management</Link><Link href="/tenants" data-goatcounter-click="nav-tenants">Tenants</Link></nav><a className="header-action" href="mailto:management@jhkproperties.com" data-goatcounter-click="contact-header-email">Contact us <span>↗</span></a></header>;
+  return <header className="site-header"><Link className="brand" href="/" aria-label="JHK Properties home" data-goatcounter-click="brand-home"><span className="brand-mark">JHK</span><span>PROPERTIES</span></Link><nav aria-label="Main navigation"><Link href="/" data-goatcounter-click="nav-home">Home</Link><Link href="/property-management" data-goatcounter-click="nav-property-management">Property management</Link><Link href="/tenants" data-goatcounter-click="nav-tenants">Tenants</Link></nav><a className="header-action" href="mailto:management@jhkproperties.com" data-goatcounter-click="contact-header-email">Contact us <span>↗</span></a></header>;
 }
 
 export function SiteFooter() {
