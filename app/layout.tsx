@@ -17,7 +17,14 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+        {children}
+        <script
+          data-goatcounter="https://jhkproperties.goatcounter.com/count"
+          async
+          src="https://gc.zgo.at/count.js"
+        />
+      </body>
     </html>
   );
 }
