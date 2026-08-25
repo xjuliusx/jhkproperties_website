@@ -1,0 +1,16 @@
+import { SiteFooter, SiteHeader } from "../components/SiteChrome";
+
+const services = [
+  ["01", "Leasing & placement", "Thoughtful marketing, applicant coordination, and lease support designed to find the right resident for each home."],
+  ["02", "Resident care", "A dependable point of contact for rent questions, maintenance requests, and the day-to-day details of renting."],
+  ["03", "Property oversight", "Responsive maintenance coordination and regular attention to the condition, safety, and needs of your property."],
+  ["04", "Owner communication", "Straightforward updates and organized records so you can stay informed without managing every detail yourself."],
+  ["05", "Financial reporting", "Organized income and expense reporting that gives owners a clearer view of property performance and upcoming needs."],
+  ["06", "Preventive inspections", "Routine interior and exterior check-ins that help identify maintenance concerns early and support long-term property care."],
+  ["07", "Vendor coordination", "Contractor sourcing, scheduling, and follow-through for repairs and recurring services, with owners kept informed along the way."],
+  ["08", "Lease administration", "Support with renewals, property records, resident notices, and the administrative details that keep each tenancy organized."],
+];
+
+export default function PropertyManagement() {
+  return <main><SiteHeader /><section className="subpage-hero management-hero"><p className="eyebrow light"><span /> Property management</p><h1>More freedom.<br /><em>Fewer loose ends.</em></h1><p>Hands-on rental management that protects your time, supports your residents, and keeps you close to what matters.</p><a className="button button-light" href="mailto:admin@jhkproperties.com?subject=Property%20management%20inquiry">Discuss your property <span>↗</span></a></section><section className="section services-section"><div className="section-heading services-heading"><p className="eyebrow"><span /> Full-service support</p><h2>Care for the property. Clarity for the owner.</h2><p>We bring the moving parts of rental ownership together, with an approach shaped around your property and priorities.</p></div><div className="services-grid">{services.map(([number,title,text]) => <article className="service-card" key={number}><span>{number}</span><h3>{title}</h3><p>{text}</p></article>)}</div></section><section className="section owner-section"><div className="owner-copy"><p className="eyebrow light"><span /> Start a conversation</p><h2>Tell us about your property.</h2><p>Whether you own one rental or a growing portfolio, we would be glad to learn what you need and talk through how JHK can help.</p><a className="button button-light" href="mailto:admin@jhkproperties.com?subject=Property%20management%20inquiry">Request a consultation <span>↗</span></a></div><aside className="owner-details"><p>Helpful details</p><h3>What to include in your note</h3><ul><li>Property location and type</li><li>Number of units</li><li>Current occupancy</li><li>What you would like help managing</li></ul><a href="mailto:admin@jhkproperties.com?subject=Property%20management%20inquiry">admin@jhkproperties.com</a></aside></section><SiteFooter /></main>;
+}
