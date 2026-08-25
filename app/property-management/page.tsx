@@ -2,13 +2,13 @@ import { SiteFooter, SiteHeader } from "../components/SiteChrome";
 
 const services = [
   ["01", "Leasing & placement", "Thoughtful marketing, applicant coordination, and lease support designed to find the right resident for each home."],
-  ["02", "Resident care", "A dependable point of contact for rent questions, maintenance requests, and the day-to-day details of renting."],
-  ["03", "Property oversight", "Responsive maintenance coordination and regular attention to the condition, safety, and needs of your property."],
-  ["04", "Owner communication", "Straightforward updates and organized records so you can stay informed without managing every detail yourself."],
-  ["05", "Financial reporting", "Organized income and expense reporting that gives owners a clearer view of property performance and upcoming needs."],
-  ["06", "Preventive inspections", "Routine interior and exterior check-ins that help identify maintenance concerns early and support long-term property care."],
-  ["07", "Vendor coordination", "Contractor sourcing, scheduling, and follow-through for repairs and recurring services, with owners kept informed along the way."],
-  ["08", "Lease administration", "Support with renewals, property records, resident notices, and the administrative details that keep each tenancy organized."],
+  ["02", "Rent collection", "Consistent rent collection, payment follow-up, and organized records that help keep property income on schedule."],
+  ["03", "Tenant communication", "A dependable point of contact for resident questions, notices, requests, and the everyday details of renting."],
+  ["04", "Maintenance coordination", "Prompt assessment, vendor scheduling, and repair follow-through, with clear updates for both owners and tenants."],
+  ["05", "Monthly owner statements", "Clear monthly statements summarizing rent received, property expenses, and other activity owners need to review."],
+  ["06", "Lease tracking", "Active tracking of lease dates, renewals, notices, and key documents so important deadlines do not get overlooked."],
+  ["07", "Condo-management interaction", "Coordination with condominium management on building requirements, access, move procedures, and property-related requests."],
+  ["08", "Emergency coordination", "A clear response path for urgent property issues, including resident communication, vendor dispatch, and owner updates."],
 ];
 
 export default function PropertyManagement() {
