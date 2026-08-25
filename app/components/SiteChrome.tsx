@@ -5,5 +5,5 @@ export function SiteHeader() {
 }
 
 export function SiteFooter() {
-  return <footer><div className="brand footer-brand"><span className="brand-mark">JHK</span><span>PROPERTIES</span></div><p>Thoughtful homes. Dependable management.</p><div><address>JHK Properties<br />16 Middle Neck Rd, #752<br />Great Neck, NY 11021</address><a href="tel:+15165643889">(516) 564-3889</a><a href="mailto:management@jhkproperties.com">management@jhkproperties.com</a><span>© {new Date().getFullYear()} JHK Properties</span></div></footer>;
+  return <footer><div className="footer-identity"><div className="brand footer-brand"><span className="brand-mark">JHK</span><span>PROPERTIES</span></div><span className="copyright">© {new Date().getFullYear()} JHK Properties</span></div><p>Thoughtful homes. Dependable management.</p><div><address>JHK Properties<br />16 Middle Neck Rd, #752<br />Great Neck, NY 11021</address><a href="tel:+15165643889">(516) 564-3889</a><a href="mailto:management@jhkproperties.com">management@jhkproperties.com</a></div></footer>;
 }
